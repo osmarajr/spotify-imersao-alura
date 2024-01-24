@@ -4,24 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-
+    <script src="https://kit.fontawesome.com/4b1dc2f3b6.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!--inicio do sidebar-->
     <div class="sidebar">
-        <nav>
-            <div>
+        <nav class="sidebar-navigation">
+            <div class="logo">                
                 <a href="">
-                    <img src="assets/icons/logo-spotify.png" alt="logo-spotify">
+                    <img src="assets/icons/logo-spotify.png" alt="logo do spotify">
                 </a>
-                <div>
-                    <ul>
-                        <li>Início</li>
-                        <li>Buscar</li>
-                    </ul>
-                </div>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-house"></span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-search"></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </div>
+
+    <div>
+        <header class="biblioteca">
+            <div class="biblioteca-container">
+                <div class="container">
+                    <span class="icone-biblioteca"></span>
+                    <span>Biblioteca</span>
+                    <span class="icone-biblioteca-adicionar"></span>
+                </div>
+            </div>
+        </header>
+    </div>
+
 </body>
 </html>
