@@ -2,7 +2,7 @@
 
 .main-container{
     max-width: 80vw;
-    max-height: 100vw;
+    max-height: 100vh;
     margin-left: 320px;
     margin-right: 56px;
 }
@@ -14,7 +14,7 @@
     padding: 16px;
     margin: 10px;
     border-radius: 8px;
-    background-color: #121212;
+    background-color: #121212
 }
 .header__navigation .navigation{
     display: flex;
@@ -23,15 +23,27 @@
 }
 .header__navigation .navigation .arrow-left{
     margin-right: 1.25rem;
-
 }
-.arrow-left .arrow-right{
+.header__navigation .navigation .arrow-left{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 32px;
-    background: var(--bg-icon);
-    background-color: var(--bg-arrow-color);
+    height: 32px;
+    background: #131313;
+    background-color: rgb(0,0,07);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.header__navigation .navigation .arrow-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: #131313;
+    background-color: rgb(0,0,07);
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -63,16 +75,15 @@
     background: transparent;
     border: none ;
     padding: 0px 100px 0 12px;
-    color: #fff;
+    color: red;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     outline: none;
 }
-
 .header__login .subscribe{
     color: #a7a7a7;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
@@ -84,4 +95,5 @@
     color: #000;
     font-size: 16px;
     font-weight: 700;
+    border-radius: 40px;
 }
