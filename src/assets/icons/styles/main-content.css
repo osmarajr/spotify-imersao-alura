@@ -61,8 +61,11 @@
     height: 48px;
     margin-left: 8px;
     background-color: #242424;
-    border: 500px;
+    border-radius: 500px;
     border: 1px solid transparent;
+}
+.header__search:hover{
+    border: 1px solid #fff;
 }
 
 .header__search img{
@@ -75,7 +78,7 @@
     background: transparent;
     border: none ;
     padding: 0px 100px 0 12px;
-    color: red;
+    color: #fff;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -87,6 +90,7 @@
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
+    border: none;
 }
 
 .header__login .login{
@@ -96,4 +100,107 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+}
+.playlist-container{
+    height: 68vh;
+    padding-top: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #121212;
+
+}
+.playlist{
+    margin: 24px;
+}
+.playlist-container #greeting{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.playlist-container .session{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.offer__scrool-container{
+    max-height: 43vh;
+    margin: 24px;
+    overflow-x: hidden;
+}
+.offer__scrool-container::-webkit-scrollbar {
+    display: none;
+}
+.offer__list-item{
+    display: grid;
+    gap: 8px;
+    grid-gap: 32px;
+    margin: 0 auto;
+}
+.offer__list-item .cards{
+    position: relative;
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.card1{
+    background-color: rgb(0, 100, 80);
+}
+.card2{
+    background-color: rgb(132, 0, 231);
+}
+.card3{
+    background-color: rgb(20, 50, 100);
+}
+.card4{
+    background-color: rgb(140, 25, 50);
+}
+.card5{
+    background-color:rgb(232, 17, 91) ;
+}
+.card6{
+    background-color:rgb(83, 122, 161);
+}
+.card7{
+    background-color: rgb(142, 102, 172);
+}
+.card8{
+    background-color: rgb(20, 138, 8);
+}
+.card9{
+    background-color: rgb(30, 50, 100);
+}
+.card10{
+    background-color: rgb(233, 20, 41);
+}
+.card11{
+    background-color: rgb(80, 55, 80);
+}
+.card12{
+    background-color: rgb(216, 64, 0);
+}
+.card13{
+    background-color: rgb(186, 93, 7);
+}
+.card14{
+    background-color: rgb(0, 30, 80);
+}
+.card15{
+    background-color: rgb(60, 30, 80);
+}
+.offer__list-item .cards span{
+    padding: 16px;
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.offer__list-item img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 107px;
+    transform: rotate(25deg) translate(18%, -2%);
 }
